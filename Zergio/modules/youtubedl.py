@@ -20,7 +20,7 @@ from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 
 from config import CMD_HANDLER as cmd
-from PyroKar.helpers.basic import edit_or_reply
+from Zergio.helpers.basic import edit_or_reply
 
 from .help import add_command_help
 
