@@ -98,7 +98,7 @@ async def ping_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Support", url="t.me/mutualindoo")]]
+                [[InlineKeyboardButton("Support", url="t.me/mutualan_cari_teman_virtual")]]
             ),
         )
     )
@@ -107,7 +107,7 @@ async def ping_function(message: Message, answers):
 
 async def karman_function(message: Message, answers):
     msg = (
-        f"𝐏𝐲𝐫𝐨𝐊𝐚𝐫-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 \n"
+        f"𝐙𝐞𝐫𝐠𝐢𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 \n"
         "ㅤㅤStatus : 𝘗𝘳𝘦𝘮𝘪𝘶𝘮 \n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤbot version: {BOT_VER} \n"
@@ -122,7 +122,7 @@ async def karman_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="💢sᴜᴘᴘᴏʀᴛ💢", url="t.me/mutualindoo"), InlineKeyboardButton(text="💢ᴏᴡɴᴇʀ💢", url="t.me/PakkPoll")], [InlineKeyboardButton(text="💢ᴍᴇɴᴜ💢", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="💢sᴜᴘᴘᴏʀᴛ💢", url="t.me/mutualan_cari_teman_virtual"), InlineKeyboardButton(text="💢ᴏᴡɴᴇʀ💢", url="t.me/ZERGIIORVDRA")], [InlineKeyboardButton(text="💢ᴍᴇɴᴜ💢", callback_data="reopen")]]
             ),
         )
     )
