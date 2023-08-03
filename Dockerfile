@@ -8,6 +8,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r req*tx
+RUN pip install -r req*txt
 
 CMD ["bash", "start"]
