@@ -28,7 +28,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 ## 🏷 Support
 
-- Follow Channel .[zerrcode](https://t.me/zerrcode) untuk info Update bot 
+- Follow Channel .[My Life](https://t.me/yagitudahpokonya) untuk info Update bot 
 - Gabung Group [MUTUALAN VIRTUAL](https://t.me/MUTUALAN_CARI_TEMAN_VIRTUAL) untuk diskusi, pelaporan bug, dan bantuan tentang ZerPyro-Userbot.
 
 ## 👨🏻‍💻 Credits
