@@ -11,7 +11,7 @@ from Zergio.helpers.misc import heroku
 BOT_VER = "0.1.0"
 CMD_HANDLER = ["." "," "?" "!"]
 MSG_ON = """
-💢 **zergiouserbot Telah Hidup** 💢
+😝 **zergiouserbot Telah Hidup** 😝
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ❍▹ **Userbot Version -** `{}`
 ❍▹ **Ketik** `{}alive` **untuk Mengecek Bot**
