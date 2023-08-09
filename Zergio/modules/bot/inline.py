@@ -108,7 +108,7 @@ async def ping_function(message: Message, answers):
 async def karman_function(message: Message, answers):
     msg = (
         f"𝐙𝐞𝐫𝐠𝐢𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 \n"
-        "ㅤㅤStatus : 𝘗𝘳𝘦𝘮𝘪𝘶𝘮 \n"
+        "ㅤㅤStatus : blum nikah \n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤbot version: {BOT_VER} \n"
         f"ㅤㅤㅤㅤbranch: {branch} \n\n"
