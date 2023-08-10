@@ -108,14 +108,14 @@ async def ping_function(message: Message, answers):
 async def karman_function(message: Message, answers):
     msg = (
         f"𝐙𝐞𝐫𝐠𝐢𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 \n"
-        "ㅤㅤStatus : blum nikah \n"
+        "ㅤㅤStatus : blum nikah\n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤbot version: {BOT_VER} \n"
         f"ㅤㅤㅤㅤbranch: {branch} \n\n"
     )
     answers.append(
         InlineQueryResultArticle(
-            title="kar",
+            title="zer",
             description="Check Bot's Stats",
             thumb_url="https://telegra.ph//file/e2f4a9478acc26c7c533f.jpg",
             input_message_content=InputTextMessageContent(
