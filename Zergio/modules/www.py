@@ -109,7 +109,7 @@ async def module_karman(client: Client, message: Message):
         help_arg = " ".join(cdm[1:])
     elif not message.reply_to_message and len(cdm) == 1:
         try:
-            nice = await client.get_inline_bot_results(bot=bot_username, query="kar")
+            nice = await client.get_inline_bot_results(bot=bot_username, query="zer")
             await asyncio.gather(
                 client.send_inline_bot_result(
                     message.chat.id, nice.query_id, nice.results[0].id),
