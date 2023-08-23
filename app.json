@@ -15,7 +15,7 @@
     "BOT_TOKEN": {
       "description": "Buatlah Sebuah Bot Di BotFather Lalu Salin Token Bot Nya",
       "required": true
-  },
+   },
     "BOTLOG_CHAT": {
       "description": "Dapatkan ID GRUP LOG dengan /id",
       "required": true
