@@ -15,6 +15,10 @@
     "BOT_TOKEN": {
       "description": "Buatlah Sebuah Bot Di BotFather Lalu Salin Token Bot Nya",
       "required": true
+      },
+    "BOTLOG_CHAT": {
+      "description": "Dapatkan ID GRUP LOG dengan /id",
+      "required": true
     },
     "STRING_SESSION1": {
       "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/mutualan_cari_teman_virtual » Lalu ketik #string",
