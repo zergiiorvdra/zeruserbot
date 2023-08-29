@@ -14,7 +14,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ```
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/zergiorvdr/zergiouserbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/zergiiorvdra/zeruserbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ## 🖇 Generating Pyrogram String Session
@@ -34,7 +34,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 -  [Risman](https://github.com/mrismanaziz) for [PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot)
--  [Zergio](https://github.com/zergiorvdr) for [ZerPyro-Userbot](https://github.com/zergiorvdr/zergiouserbot)
+-  [Zergio](https://github.com/zergiiorvdra) for [ZerPyro-Userbot](https://github.com/zergiiorvdra/zeruserbot)
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/PyroMan-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
