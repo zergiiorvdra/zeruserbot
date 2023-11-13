@@ -17,7 +17,7 @@
       "required": true
     },
     "STRING_SESSION1": {
-      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/mutualan_cari_teman_virtual » Lalu ketik #string",
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/cari_teman_virtual_ind » Lalu ketik #string",
       "required": true
     },
     "HEROKU_API_KEY": {
