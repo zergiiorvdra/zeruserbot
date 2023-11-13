@@ -29,7 +29,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 🏷 Support
 
 - Follow Channel .[My Life](https://t.me/yagitudahpokonya) untuk info Update bot 
-- Gabung Group [MUTUALAN VIRTUAL](https://t.me/MUTUALAN_CARI_TEMAN_VIRTUAL) untuk diskusi, pelaporan bug, dan bantuan tentang ZerPyro-Userbot.
+- Gabung Group [CARI TEMAN VIRTUAL](https://t.me/CARI_TEMAN_VIRTUAL_IND) untuk diskusi, pelaporan bug, dan bantuan tentang ZerPyro-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
