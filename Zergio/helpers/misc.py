@@ -128,7 +128,7 @@ async def create_botlog(client):
     LOGGER("Zergio").info(
         "TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA"
     )
-    desc = "Group Log untuk Zergio-UserBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n💢 Powered By ~ @Karc0de 💢"
+    desc = "Group Log untuk Zergio-UserBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n💢 Powered By ~ @CARI_TEMAN_VIRTUAL_IND 💢"
     try:
         gruplog = await client.create_supergroup("Zergio UserBot Log", desc)
         if await in_heroku():
