@@ -13,10 +13,10 @@ class First:
 **Hey**, __I am using__ ⚜️ **ZergioUserbot** ⚜️
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [Support Group](t.me/MUTUALAN_CARI_TEMAN_VIRTUAL)
+✣ **Group Support :** [Support Group](t.me/CARI_TEMAN_VIRTUAL_IND)
 ✣ **Channel :** [Channel](t.me/yagitudahpokonya)
 ✣ **Owner Repo :** [zergio](t.me/ZERGIIORVDRA)
-✣ **Repo :** [zergiouserbot](https://github.com/zergiorvdr/zergiouserbot)
+✣ **Repo :** [zergiouserbot](https://github.com/zergiiorvdra/zeruserbot)
 
 Powered by [PyroMan-Userbot](https://github.com/mrismanaziz/pyroman-userbot)"""
     CREATOR = 'I was created by my master <a href="https://github.com/ArmanGG01/PyroKar-Userbot">Man</a> on a rainy day.'
