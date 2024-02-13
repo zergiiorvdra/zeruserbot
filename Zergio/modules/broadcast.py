@@ -117,9 +117,9 @@ async def blchatgcast(client: Client, message: Message):
 
 @Client.on_message(filters.command("addblacklist", cmd) & filters.me)
 async def addblacklist(client: Client, message: Message):
-    Man = await edit_or_reply(message, "`Processing...`")
+    xxnx = await edit_or_reply(message, "`Processing...`")
     if HAPP is None:
-        return await message.edit(
+        return await xxnx.edit(
             "**Silahkan Tambahkan Var** `HEROKU_APP_NAME` **untuk menambahkan blacklist**",
         )
     blgc = f"{BLACKLIST_GCAST} {message.chat.id}"
@@ -131,7 +131,7 @@ async def addblacklist(client: Client, message: Message):
         .replace("]", "")
         .replace("set() ", "")
     )
-    await message.edit(
+    await xxnx.edit(
         f"**Berhasil Menambahkan** `{message.chat.id}` **ke daftar blacklist gcast.**\n\nSedang MeRestart Heroku untuk Menerapkan Perubahan."
     )
     if await in_heroku():
