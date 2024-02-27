@@ -30,7 +30,7 @@ def globals_init():
     except Exception as e:
         sql = None
         sql2 = None
-        LOGS.warn("Unable to run GBan and GMute command, no SQL connection found")
+        LOGS.warn("Unable to run GBan, GMute command, no SQL connection found")
         raise e
 
 
@@ -50,12 +50,12 @@ async def gban_user(client: Client, message: Message):
     if not user_id:
         return await Man.edit("Saya tidak dapat menemukan pengguna itu.")
     if user_id == client.me.id:
-        return await Man.edit("**Ngapain NgeGban Diri Sendiri Pepek**")
+        return await Man.edit("**Dirimu sehat bes ? diri sendiri di gban 🗿**")
     if user_id in DEVS:
-        return await Man.edit("**Gak Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
+        return await Man.edit("**Dirimu ngantuk kah bes ? 🗿**")
     if user_id in WHITELIST:
         return await Man.edit(
-            "**Lu Ga Bisa Gblk Gban Dia Karena Dia Adalah admin @ZERGIIORVDRA 😡**"
+            "**Lu Ga Bisa bes Gban Dia Karena Dia Adalah admin @ZERGIIORVDRA 😡**"
         )
     if user_id:
         try:
@@ -69,7 +69,7 @@ async def gban_user(client: Client, message: Message):
         )
     f_chats = await get_ub_chats(client)
     if not f_chats:
-        return await Man.edit("**Anda tidak mempunyai GC yang anda admin 🥺**")
+        return await Man.edit("**Yahhh cok Dirimu ga punya GC yang dirimu admin 🥺**")
     er = 0
     done = 0
     for gokid in f_chats:
@@ -113,7 +113,7 @@ async def ungban_user(client: Client, message: Message):
             return await Man.edit("`User already ungban`")
         ung_chats = await get_ub_chats(client)
         if not ung_chats:
-            return await Man.edit("**Anda tidak mempunyai GC yang anda admin 🥺**")
+            return await Man.edit("**Yahhh cok Dirimu ga punya GC yang dirimu admin 🥺**")
         er = 0
         done = 0
         for good_boi in ung_chats:
@@ -142,7 +142,7 @@ async def gbanlist(client: Client, message: Message):
     users = sql.gbanned_users()
     Man = await edit_or_reply(message, "`Processing...`")
     if not users:
-        return await Man.edit("Belum Ada Jamet yang Di-Gban")
+        return await Man.edit("Belum Ada Jamet nih yang Di-Gban")
     gban_list = "**GBanned Users:**\n"
     count = 0
     for i in users:
@@ -169,12 +169,12 @@ async def gmute_user(client: Client, message: Message):
         await Man.edit(f"`Please specify a valid user!`")
         return
     if user.id == client.me.id:
-        return await Man.edit("**Ngapain NgeGmute Diri Sendiri Pepek**")
+        return await Man.edit("**Dirimu sehat bes ? diri Sendiri di gmute 🗿**")
     if user.id in DEVS:
-        return await Man.edit("**Gak Bisa Di Gmute Kontol karena dia Yang Buat Aku 🗿**")
+        return await Man.edit("**Dirimu ngantuk kah bes ? 🗿**")
     if user.id in WHITELIST:
         return await Man.edit(
-            "**Kau Gak Bisa Kontol Gmute Dia Karena Dia Adalah admin @Karc0de 😡**"
+            "**Kau Gak Bisa bes Gmute Dia Karena Dia Adalah admin @ZERGIIORVDRA 😡**"
         )
     try:
         replied_user = reply.from_user
@@ -247,7 +247,7 @@ async def gmutelist(client: Client, message: Message):
     users = sql2.gmuted_users()
     Man = await edit_or_reply(message, "`Processing...`")
     if not users:
-        return await Man.edit("Belum Ada Jamet yang Di-Gmute")
+        return await Man.edit("Belum Ada Jamet nih yang Di-Gmute")
     gmute_list = "**GMuted Users:**\n"
     count = 0
     for i in users:
@@ -285,6 +285,7 @@ async def globals_check(client: Client, message: Message):
     message.continue_propagation()
 
 
+    
 add_command_help(
     "globals",
     [
@@ -292,7 +293,13 @@ add_command_help(
             "gban <reply/username/userid>",
             "Melakukan Global Banned Ke Semua Grup Dimana anda Sebagai Admin.",
         ],
+        [
+            "gmute <reply/username/userid>",
+            "Melakukan Global Mute Ke Semua Grup Dimana anda Sebagai Admin.",
+        ],
         ["ungban <reply/username/userid>", "Membatalkan Global Banned."],
+        ["ungban <reply/username/userid>", "Membatalkan Global Mute."],
         ["listgban", "Menampilkan List Global Banned."],
+        ["listgmute", "Menampilkan List Global Mute."],
     ],
 )
