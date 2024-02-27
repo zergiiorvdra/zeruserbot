@@ -42,9 +42,9 @@ del _GCAST_BLACKLIST
 @Client.on_message(filters.command("gcast", cmd) & filters.me)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Man = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝙻𝙰𝙷 𝙺𝙰𝚄 𝙳𝙸𝙺𝙸𝚃 𝙺𝙾𝙽𝚃𝙾𝙻 𝙸𝙽𝙸 𝚄𝙳𝙰𝙷 𝙼𝙰𝚄 𝙳𝙸 𝙺𝙸𝚁𝙸𝙼 𝙺𝙴 𝚂𝙴𝙼𝚄𝙰 𝙶𝚁𝙾𝚄𝙿 𝙹𝙰𝙼𝙴𝚃...`")
+        Man = await edit_or_reply(message, "`SABAR weh otw ngirim nih ke semua grup mu...`")
     else:
-        return await message.edit_text("**Pesannya Mana ngentod**")
+        return await message.edit_text("**Pesannya Mana astaga lop u**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -66,7 +66,7 @@ async def gcast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await Man.edit_text(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup Mu, Gagal Mengirim Pesan Ke** `{error}` **Grup Alay Mu Tol,**"
+        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup Mu, Gagal Mengirim Pesan Ke** `{error}` **Grup jamet mu bes,**"
     )
 
 
@@ -74,9 +74,9 @@ async def gcast_cmd(client: Client, message: Message):
 @Client.on_message(filters.command("gucast", cmd) & filters.me)
 async def gucast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Man = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝙻𝙰𝙷 𝙺𝙰𝚄 𝙳𝙸𝙺𝙸𝚃 𝙺𝙾𝙽𝚃𝙾𝙻 𝙸𝙽𝙸 𝚄𝙳𝙰𝙷 𝙼𝙰𝚄 𝙳𝙸 𝙺𝙸𝚁𝙸𝙼 𝙺𝙴 𝚂𝙴𝙼𝚄𝙰 𝙺𝙰𝚆𝙰𝙽 𝙹𝙰𝙼𝙴𝚃 𝙼𝚄...`")
+        Man = await edit_or_reply(message, "`SABAR weh otw ngirim nih ke semua kontak mu...`")
     else:
-        return await message.edit_text("**Pesannya Mana ngentod**")
+        return await message.edit_text("**Pesannya Mana astaga lop u**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -98,7 +98,7 @@ async def gucast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await Man.edit_text(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chat Nih tod, Gagal Mengirim Pesan Ke** `{error}` **chat Tod, Sorry**"
+        f"**Berhasil Mengirim Pesan Ke** `{done}` **chat Nih bes, Gagal Mengirim Pesan Ke** `{error}` **chat bes, Sorry**"
     )
 
 
@@ -132,7 +132,7 @@ async def addblacklist(client: Client, message: Message):
         .replace("set() ", "")
     )
     await message.edit(
-        f"**Berhasil Menambahkan** `{message.chat.id}` **ke daftar blacklist gcast.**\n\nSedang MeRestart Heroku untuk Menerapkan Perubahan."
+        f"**Berhasil Menambahkan** `{message.chat.id}` **ke daftar blacklist gcast.**\n\nSedang MeRestart Heroku sabar bentaran ya untuk Menerapkan Perubahan."
     )
     if await in_heroku():
         heroku_var = HAPP.config()
@@ -154,7 +154,7 @@ async def delblacklist(client: Client, message: Message):
     if gett in blchat:
         blacklistgrup = blchat.replace(gett, "")
         await message.edit(
-            f"**Berhasil Menghapus** `{message.chat.id}` **dari daftar blacklist gcast.**\n\nSedang MeRestart Heroku untuk Menerapkan Perubahan."
+            f"**Berhasil Menghapus** `{message.chat.id}` **dari daftar blacklist gcast.**\n\nSedang MeRestart Heroku sabar bentaran ya untuk Menerapkan Perubahan."
         )
         if await in_heroku():
             heroku_var = HAPP.config()
