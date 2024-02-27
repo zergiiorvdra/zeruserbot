@@ -84,8 +84,8 @@ async def ping_function(message: Message, answers):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     msg = (
-        f"<b>💢𝐙𝐞𝐫𝐠𝐢𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭💢</b>\n\n"
-        f"<b>🇮🇩ᴋᴏɴᴛᴏʟ!!<b>\n"
+        f"<b>🐷ZerXSep-Userbot</b>\n\n"
+        f"<b>DORR!!!<b>\n"
         f"├•ᴜᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>\n"
         f"├•ᴅᴜʀᴀᴛɪᴏɴ :</b> <code>{duration}ms</code>\n"
     )
@@ -107,8 +107,8 @@ async def ping_function(message: Message, answers):
 
 async def karman_function(message: Message, answers):
     msg = (
-        f"𝐙𝐞𝐫𝐠𝐢𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 \n"
-        "ㅤㅤStatus : blum nikah\n"
+        f"ZerXSep-Userbot \n"
+        "ㅤㅤStatus : JOMBLO AKUT\n"
         f"ㅤㅤㅤㅤmodules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤbot version: {BOT_VER} \n"
         f"ㅤㅤㅤㅤbranch: {branch} \n\n"
@@ -122,7 +122,7 @@ async def karman_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="💢sᴜᴘᴘᴏʀᴛ💢", url="t.me/cari_teman_virtual_ind"), InlineKeyboardButton(text="💢ᴏᴡɴᴇʀ💢", url="t.me/ZERGIIORVDRA")], [InlineKeyboardButton(text="💢ᴍᴇɴᴜ💢", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/cari_teman_virtualx"), [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
