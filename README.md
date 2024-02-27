@@ -1,4 +1,4 @@
-# zergiouserbot Telegram
+# zerxsepuserbot Telegram
 
 ZerPyro-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.
 
@@ -28,13 +28,13 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 ## 🏷 Support
 
-- Follow Channel .[My Life](https://t.me/yagitudahpokonya) untuk info Update bot 
-- Gabung Group [CARI TEMAN VIRTUAL](https://t.me/CARI_TEMAN_VIRTUAL_IND) untuk diskusi, pelaporan bug, dan bantuan tentang ZerPyro-Userbot.
+- Follow Channel .[My Life](https://t.me/ctvaselole) untuk info Update bot 
+- Gabung Group [CARI TEMAN VIRTUAL](https://t.me/Cari_Teman_Virtualx) untuk diskusi, pelaporan bug, dan bantuan tentang ZerXSep-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 -  [Risman](https://github.com/mrismanaziz) for [PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot)
--  [Zergio](https://github.com/zergiiorvdra) for [ZerPyro-Userbot](https://github.com/zergiiorvdra/zeruserbot)
+-  [Zergio](https://github.com/zergiiorvdra) for [ZerXSep-Userbot](https://github.com/zergiiorvdra/zeruserbot)
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/PyroMan-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
