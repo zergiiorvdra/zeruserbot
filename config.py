@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "👑")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph//file/e2f4a9478acc26c7c533f.jpg")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🐷")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph//file/056dde49b15dd4f88eeac.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
@@ -33,7 +33,7 @@ CMD_HNDLR = cmd
 OWNER_ID = getenv("OWNER_ID", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 OPENAI_API = getenv("OPENAI_API", "")
-CHANNEL = getenv("CHANNEL", "yagitudahpokonya")
+CHANNEL = getenv("CHANNEL", "ctvaselole")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
