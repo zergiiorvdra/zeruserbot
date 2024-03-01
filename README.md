@@ -28,7 +28,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 ## 🏷 Support
 
-- Follow Channel .[My Life](https://t.me/ctvaselole) untuk info Update bot 
+- Follow Channel .[CTVASELOLE](https://t.me/ctvaselole) untuk info Update bot 
 - Gabung Group [CARI TEMAN VIRTUAL](https://t.me/Cari_Teman_Virtualx) untuk diskusi, pelaporan bug, dan bantuan tentang ZerXSep-Userbot.
 
 ## 👨🏻‍💻 Credits
