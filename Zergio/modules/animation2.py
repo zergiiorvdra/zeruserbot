@@ -155,7 +155,7 @@ async def pantau(client: Client, message: Message):
 
 
 add_command_help(
-    "animation",
+    "animation2",
     [
         ["ange", "Untuk menampilkan animasi ngemis anu."],
         ["orgil", "Untuk menampilkan animasi orang gila lari larian."],
