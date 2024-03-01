@@ -71,7 +71,6 @@ async def translate(client: Client, message: Message):
         parse_mode=enums.ParseMode.MARKDOWN,
     )
 
-
 add_command_help(
     "translate",
     [
