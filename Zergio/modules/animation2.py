@@ -75,8 +75,7 @@ async def ange(client: Client, message: Message):
 
 @Client.on_message(filters.command(["orgil"], cmd) & filters.me)
 async def orgil(client: Client, message: Message):
-    typew.pattern_match.group(1)
-    await typew.edit("`ANJING ADA ORANG GILA.....`")
+    typew = await edit_or_reply(message, "`WOI ADA ORANG GILAAAAAAA.....`")
     asyncio.sleep(1)
     await typew.edit("`ORANG GILAAAAAA!!`")
     asyncio.sleep(1)
@@ -133,17 +132,16 @@ async def orgil(client: Client, message: Message):
 
 @Client.on_message(filters.command(["sadboy"], cmd) & filters.me)
 async def sadboy(client: Client, message: Message):
-    typew.pattern_match.group(1)
+    await message.edit("`Pertama-tama kamu cantik`")
     asyncio.sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
-    asyncio.sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await message.edit("`Kedua kamu manis`")
     asyncio.sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await message.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
 
 @Client.on_message(filters.command(["pantau"], cmd) & filters.me)
 async def pantau(client: Client, message: Message):
     await edit_or_reply(
+        message,
         "`\n┻┳|―-∩`"
         "`\n┳┻|     ヽ`"
         "`\n┻┳|    ● |`"
