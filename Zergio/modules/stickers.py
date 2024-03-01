@@ -35,7 +35,7 @@ from .help import add_command_help
 async def kang(client: Client, message: Message):
     user = client.me
     replied = message.reply_to_message
-    Man = await edit_or_reply(message, "`Boleh juga ni stickernya colong ahh...`")
+    Zergio = await edit_or_reply(message, "`Estetik nih jadiin tikel ahh...`")
     media_ = None
     emoji_ = None
     is_anim = False
@@ -65,7 +65,7 @@ async def kang(client: Client, message: Message):
             ff_vid = True
         elif replied.sticker:
             if not replied.sticker.file_name:
-                await Man.edit("**Stiker tidak memiliki Nama!**")
+                await Zergio.edit("**Stiker tidak memiliki Nama!**")
                 return
             emoji_ = replied.sticker.emoji
             is_anim = replied.sticker.is_animated
@@ -77,11 +77,11 @@ async def kang(client: Client, message: Message):
                 resize = True
                 ff_vid = True
         else:
-            await Man.edit("**File Tidak Didukung**")
+            await Zergio.edit("**File Tidak Didukung**")
             return
         media_ = await client.download_media(replied, file_name="Zergio/resources/")
     else:
-        await Man.edit("**Silahkan Reply ke Media Foto/GIF/Sticker!**")
+        await Zergio.edit("**Silahkan Reply ke Media Foto/GIF/Sticker!**")
         return
     if media_:
         args = get_arg(message)
@@ -139,7 +139,7 @@ async def kang(client: Client, message: Message):
                 if is_video:
                     packname += f"_video{pack}"
                     packnick += f" (Video){pack}"
-                await Man.edit(
+                await Zergio.edit(
                     f"`Membuat Sticker Pack Baru {pack} Karena Sticker Pack Sudah Penuh`"
                 )
                 continue
@@ -151,7 +151,7 @@ async def kang(client: Client, message: Message):
                 await client.unblock_user("stickers")
                 await client.send_message("stickers", "/addsticker")
             except Exception as e:
-                return await Man.edit(f"**ERROR:** `{e}`")
+                return await Zergio.edit(f"**ERROR:** `{e}`")
             await asyncio.sleep(2)
             await client.send_message("stickers", packname)
             await asyncio.sleep(2)
@@ -166,7 +166,7 @@ async def kang(client: Client, message: Message):
                 if is_video:
                     packname += "_video"
                     packnick += " (Video)"
-                await Man.edit(
+                await Zergio.edit(
                     "`Membuat Sticker Pack Baru "
                     + str(pack)
                     + " Karena Sticker Pack Sudah Penuh`"
@@ -193,8 +193,8 @@ async def kang(client: Client, message: Message):
                     await asyncio.sleep(2)
                     await client.send_message("Stickers", packname)
                     await asyncio.sleep(2)
-                    await Man.edit(
-                        f"**Sticker Berhasil Ditambahkan!**\n         🔥 **[KLIK DISINI](https://t.me/addstickers/{packname})** 🔥\n**Untuk Menggunakan Stickers**"
+                    await Zergio.edit(
+                        f"**Tikel mu dah jadi ni, keren kan!**\n         🔥 **[PENCET INI](https://t.me/addstickers/{packname})** 🔥\n**Untuk Make Tikel mu**"
                     )
                     return
             await client.send_document("stickers", media_)
@@ -203,7 +203,7 @@ async def kang(client: Client, message: Message):
                 await get_response(message, client)
                 == "Sorry, the file type is invalid."
             ):
-                await Man.edit(
+                await Zergio.edit(
                     "**Gagal Menambahkan Sticker, Gunakan @Stickers Bot Untuk Menambahkan Sticker Anda.**"
                 )
                 return
@@ -211,7 +211,7 @@ async def kang(client: Client, message: Message):
             await asyncio.sleep(2)
             await client.send_message("Stickers", "/done")
         else:
-            await Man.edit("`Membuat Sticker Pack Baru`")
+            await Zergio.edit("`Membuat Sticker Pack Baru`")
             try:
                 await client.send_message("Stickers", cmd)
             except YouBlockedUser:
@@ -226,7 +226,7 @@ async def kang(client: Client, message: Message):
                 await get_response(message, client)
                 == "Sorry, the file type is invalid."
             ):
-                await Man.edit(
+                await Zergio.edit(
                     "**Gagal Menambahkan Sticker, Gunakan @Stickers Bot Untuk Menambahkan Sticker Anda.**"
                 )
                 return
@@ -241,7 +241,7 @@ async def kang(client: Client, message: Message):
             await asyncio.sleep(2)
             await client.send_message("Stickers", packname)
             await asyncio.sleep(2)
-        await Man.edit(
+        await Zergio.edit(
             f"**Sticker Berhasil Ditambahkan!**\n         🔥 **[KLIK DISINI](https://t.me/addstickers/{packname})** 🔥\n**Untuk Menggunakan Stickers**"
         )
         if os.path.exists(str(media_)):
@@ -313,7 +313,7 @@ async def tinying(client: Client, message: Message):
     reply = message.reply_to_message
     if not (reply and (reply.media)):
         return await edit_or_reply(message, "**Silahkan Balas Ke Pesan Sticker!**")
-    Man = await edit_or_reply(message, "`Processing . . .`")
+    Zergio = await edit_or_reply(message, "`Processing . . .`")
     ik = await client.download_media(reply)
     im1 = Image.open("Zergio/resources/blank.png")
     if ik.endswith(".tgs"):
@@ -374,7 +374,7 @@ async def tinying(client: Client, message: Message):
         file = "o.webp"
         os.remove("k.png")
     await asyncio.gather(
-        Man.delete(),
+        Zergio.delete(),
         client.send_sticker(
             message.chat.id,
             sticker=file,
@@ -395,13 +395,13 @@ async def memify(client: Client, message: Message):
         await edit_or_reply(message, "**Harap Balas ke foto atau sticker!**")
         return
     file = await client.download_media(reply_message)
-    Man = await edit_or_reply(message, "`Processing . . .`")
+    Zergio = await edit_or_reply(message, "`Processing . . .`")
     text = get_arg(message)
     if len(text) < 1:
         return await msg.edit(f"Harap Ketik `{cmd}mmf text`")
     meme = await add_text_img(file, text)
     await asyncio.gather(
-        Man.delete(),
+        Zergio.delete(),
         client.send_sticker(
             message.chat.id,
             sticker=meme,
