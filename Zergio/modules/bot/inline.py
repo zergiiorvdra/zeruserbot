@@ -85,7 +85,7 @@ async def ping_function(message: Message, answers):
     duration = (end - start).microseconds / 1000
     msg = (
         f"<b>🐷ZerXSep-Userbot</b>\n\n"
-        f"<b>DORR!!!<b>\n"
+        f"<b>🐷DORR!!!<b>\n"
         f"├•ᴜᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>\n"
         f"├•ᴅᴜʀᴀᴛɪᴏɴ :</b> <code>{duration}ms</code>\n"
     )
@@ -98,7 +98,7 @@ async def ping_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Support", url="t.me/cari_teman_virtual_ind")]]
+                [[InlineKeyboardButton("Support", url="t.me/cari_teman_virtualx")]]
             ),
         )
     )
